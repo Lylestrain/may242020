@@ -12,9 +12,9 @@ header {
 h1 {
     text-align: center;
 }
-hr {
+h1>hr {
     width: 80%;
-    margin: 15px 0px 5px 0px;
+    margin: 15px auto ;
 }
 section {
     width: 80%;
