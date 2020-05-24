@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: beige;
+}
+header {
+    background-color: rgb(253, 235, 163);
+    padding: 10px 10px 1px 10px;
+}
+h1 {
+    text-align: center;
+}
+hr {
+    width: 80%;
+    margin: 15px 0px 5px 0px;
+}
+section {
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+nav {
+    position: relative;
+}
+ul {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+a {
+    background-color: rgb(253, 235, 163);
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
