@@ -22,7 +22,13 @@ a {
     color: papayawhip;
     text-decoration: none;
     padding: 14px;
-    border:2px solid rgb(0, 0, 0) ;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 4px;
     margin-left: 3px;
+}
+a:hover {
+    border:2px solid rgb(2, 2, 2) ;
+    text-shadow: 2px 2px #ff0000;
+
 }
 
