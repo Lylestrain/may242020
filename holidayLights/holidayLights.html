@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Lights</title>
+    <link rel="stylesheet" href="styles/lights.css">
+</head>
+<body>
+
+    <section id="top">
+
+            <h2>Holiday lights</h2>
+            <article>
+                <p>Start with an empty "div id=lights", inside this put a "div class=bulb" and in the css give it some size, width, height, margin, the background-color and box-shadow are added here for visualisation and will be applied with java-script later to make the flashing effect.
+                </p>
+
+                <div id="exone"></div>
+                <p>
+                    The "div" element is a generic element for styling, which is why it will work well in this application.
+                </p>
+                <div id="exones"></div>
+                <p>
+                    the second "div box" has a box shadow applied to one side,the third "div box" has a box shadow applied on both sides.
+                </p>
+                <div id="exoness"></div>
+                <p>
+                    A  border-radius:100% 4px makes a nice bulb shape
+                </p>
+                <div id="extwo"></div>
+                <p>
+                    A  transform: rotate(-45deg) straightens the bulb shape
+                </p>
+                <div id="extwos"></div>
+                <p>
+                    in the css(styles) go about setting the styles(+opacity) for every other bulb:-- .bulb:nth-child(odd) --, remove background-color, box-shadow from the class bulb(.bulb)
+                </p>
+
+                <p>
+                    Set the keyframes for "bulb-pulse-1" changing the opacity from 1 to 0.3.
+                </p>
+                <p>
+                    apply the animation property to the .bulb:nth-child(odd)
+                </p>
+            </article>
+            
+    </section>
+            
+    <div class="sa"> dang</div>
+   
+
+    <div id="lights">
+    <!--
+        <div class="bulb"></div>
+        <div class="bulb"></div> 
+    -used for initial visualisation- -->
+
+    </div>
+
+    <script>
+        for (let i = 0; i < 10; i++) {
+             let bulb= element = document.createElement("div");
+             bulb.className = "bulb";
+             document.getElementById("lights").appendChild(bulb);            
+        }
+    </script>
+    
+</body>
+</html>
