@@ -12,10 +12,10 @@ ul {
     background-color: slategrey;
     list-style-type: none;
     overflow: hidden;
-    padding: 5px;
 }
 li {
     float: left;
+    padding: 5px 0px;
 }
 a {
     display: block;
