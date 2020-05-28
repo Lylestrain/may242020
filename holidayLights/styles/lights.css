@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font: 1em sans-serif;
+}
+
+#top {
+    background-color: rgb(226, 225, 189);
+    padding: 10px;
+}
+
+#exone {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    margin: 20px;
+}
+
+#exones {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    margin: 20px;
+    box-shadow: 2px 2px 15px crimson;
+}
+
+#exoness {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    margin: 20px;
+    box-shadow: 2px 2px 15px crimson, -2px -2px 15px crimson;
+   /* box-shadow: -2px -2px 15px crimson;*/
+}
+
+#extwo {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    margin: 20px;
+    box-shadow: 2px 2px 15px crimson, -2px -2px 15px crimson;
+    border-radius:100% 4px;
+}
+
+#extwos {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    margin: 20px;
+    box-shadow: 2px 2px 15px crimson, -2px -2px 15px crimson;
+    border-radius:100% 4px;
+    transform: rotate(-45deg);
+}
+
+.bulb {
+    width: 50px;
+    height: 50px;
+    /*background-color: rgb(18, 155, 29); -used for initial visualisation- */
+    display:inline-block;
+    margin: 0 10;
+    border-radius:100% 4px;/*create bulb shape*/
+    transform: rotate(-45deg);
+    /*box-shadow: 1px 1px 15px rgb(18, 155, 29); negative numbers for other side  -used for initial visualisation- */
+}
+
+.sa {
+    color: rgb(18, 155, 29);
+    background-color: rgb(39, 18, 155);
+}
+
+.bulb:nth-child(odd) {
+    background-color: rgb(211, 32, 0);
+    opacity: 1;
+    box-shadow: 1px 1px 15px rgb(211, 32, 0), -1px -1px 15px rgb(211, 32, 0);
+    animation: bulb-pulse-1 0.8s linear 0s infinite alternate;
+}
+
+.bulb:nth-child(even) {
+    background-color: rgb(68, 253, 77);
+    opacity: 1;
+    box-shadow: 1px 1px 15px rgb(68, 253, 77), -1px -1px 15px rgb(68, 253, 77);
+    animation: bulb-pulse-2 0.8s linear 0s infinite alternate;
+}
+
+
+@keyframes bulb-pulse-1 {
+    from{box-shadow: 1px 1px 15px rgb(211, 32, 0), -1px -1px 15px rgb(211, 32, 0);opacity: 1; }
+    to{box-shadow:none; opacity:0.3; }
+}
+
+
+@keyframes bulb-pulse-2 {
+    from{box-shadow:none rgb(68, 253, 77); opacity:0.3; }
+    to{box-shadow: 1px 1px 15px rgb(68, 253, 77), -1px -1px 15px rgb(68, 253, 77);opacity: 1; }
+    
+}
