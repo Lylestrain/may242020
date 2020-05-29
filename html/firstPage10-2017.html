@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>11/10/2017 First Git Website Project</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="author" content="Lyle Strain">
+	    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"/>
+	    <meta name="description" content="">
+	    <meta name="keywords" content="keywords, for, your, site" />
+	    <link rel="stylesheet" type="text/css" href="css/styles_small_screen.css">
+
+	    <!--[if lt IE 9]>
+	            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	        <![endif]-->
+
+	    <style type="text/css">
+	        /* Reset Rule */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+	background: rgb(250, 205, 259);
+}
+
+header {
+	color: white;
+	background: maroon;
+	border-bottom: 5px solid white;
+	margin-bottom: 5px;
+}
+
+h1 {
+	margin-left: 5%;
+}
+
+p.one {
+	margin-left: 70%;
+}
+
+#page {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: .5em;
+/*	background: white; */
+}
+
+#first_article {
+	background: white;
+	padding: .5em;
+	border-radius: .5em;
+}
+
+
+
+#first h2 {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#first p {
+	text-indent: 1em;
+}
+
+#about_me .wrapper {
+	background: white;
+	padding: .5em;
+	border-radius: .5em;
+	margin-top: .5em;
+}
+
+#interests h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#interests p {
+	text-indent: 1em;
+}
+
+#hobies h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#hobies li {
+	list-style-type: none;
+	text-align: center;
+}
+
+#contact h2 {
+	text-transform: capitalize;
+	text-align: center;
+	
+}
+
+#contact p {
+	text-align: center;
+}
+
+footer {
+	margin-top: .5em;
+	position: absolute;
+	bottom: left 0px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 500px) {
+	
+	*{
+	    margin: 0px;
+	    padding: 0px;
+	    border: 0px;
+	}
+
+	body {
+		background: rgb(150, 205, 259);
+	}
+
+	header {
+		height: 150px;
+		color: white;
+		background: maroon;
+		border-bottom: 5px solid white;
+		margin-bottom: 5px;
+	}
+
+	h1 {
+		padding-top: 5%;
+		margin-left: 5%;
+	}
+
+
+
+	#first p {
+		columns:2 auto;
+		text-indent: 1em;
+	}
+
+
+	#interests {
+		width: 50%;
+		float: left;
+	}
+
+	#interests .wrapper {
+		margin-right: .25em;
+	}
+
+	#hobies {
+		width: 50%;
+		float: left;
+	}
+
+	#hobies .wrapper {
+		margin-left: .25em;
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+
+	#contact {
+		
+		margin-top: .25em;
+	}
+
+	/*#contact .wrapper {
+		
+	}*/
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 899px) {
+	body {
+		background: rgb(150, 205, 159);
+	}
+
+	#first p {
+		columns:3 auto;
+		text-indent: 1em;
+	}
+
+	#page {
+		
+		max-width: 900px;
+		margin: 0 auto;
+		padding-top: .5em;
+	/*	background: white; */
+	}
+
+	#about_me {
+		margin-top: 215px;
+	}
+
+
+	#interests {
+		width: 33.33%;
+		float: left;
+	}
+
+	#interests .wrapper {
+		margin-right: .4em;
+	} 
+
+	#hobies {
+		width: 33.33%;
+		float: left;
+	}
+
+	#hobies .wrapper {
+		margin-left: .2em;
+		margin-right: .2em;
+	}  
+
+	#contact {
+		margin-top: 0px;
+		width: 33.33%;
+		float: left;
+	}
+
+	#contact .wrapper {
+		margin-left: .4em;
+	}
+
+	.clearfix { 
+		display: none;
+	}
+
+	.clearfix_l {
+		clear: both;
+	}
+
+
+/*	footer {
+		
+	}*/
+
+}
+	    </style>
+
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>header</h1>
+            <p class="one">another blurb</p>
+        </div>
+    </header>
+    <section id="page">
+        <section id="first_article">
+            <article id="first">
+                <h2>my first</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
+        </section><!-- end of id="first_article" -->
+        <section id="about_me">
+            <article id="interests">
+                <div class="wrapper">
+                    <h2>my interests</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </article>
+            <article id="hobies">
+                <div class="wrapper">
+                    <h2>my hobies</h2>
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+                </div>
+            </article>
+            <div class="clearfix"></div>
+            <article id="contact">
+                <div class="wrapper">  
+                    <h2>contact me</h2>
+                    <p>1(789)352-6521</p>
+                </div>
+            </article>
+            <div class="clearfix_l"></div>
+        </section><!-- end of id="about_me" -->
+        <footer>
+            <p>&copy Lyle Strain</p>
+        </footer>
+    </section><!-- end of id="page" -->
+
+
+
+
+
+
+
+</body>
+</html>
